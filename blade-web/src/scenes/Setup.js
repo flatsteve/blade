@@ -40,7 +40,7 @@ export default function () {
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.formGroup}>
           <label className={styles.label}>
-            Enter your name <small>(optional)</small>
+            Enter Your Name <small>(optional)</small>
           </label>
 
           <input

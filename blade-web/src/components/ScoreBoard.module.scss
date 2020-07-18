@@ -49,6 +49,7 @@ $icon-size: 1.25rem;
 
 .playerContainer {
   flex-basis: calc(50% - 0.75rem);
+  margin-bottom: 0.25rem;
 
   &:nth-of-type(odd) {
     .player {
@@ -144,7 +145,7 @@ $icon-size: 1.25rem;
 }
 
 .vsCrew {
-  transform: translateY(calc(-50% - 1rem));
+  transform: translateY(calc(-50% - 0.55rem));
   top: 50%;
 }
 

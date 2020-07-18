@@ -26,6 +26,17 @@
   text-align: center;
 }
 
+.scoreCount {
+  align-items: center;
+  border: 3px solid $white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 4rem;
+  width: 4rem;
+}
+
 .action {
   align-items: center;
   display: flex;

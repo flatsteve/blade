@@ -24,7 +24,7 @@ export default function () {
       name = "Player 1";
     }
 
-    if (name === settings.playerName) {
+    if (name === settings.playerNames[1]) {
       return history.push("/");
     }
 
@@ -50,7 +50,7 @@ export default function () {
 
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.formGroup}>
-          <Label id="name">Your name</Label>
+          <Label id="name">Your Name</Label>
 
           <Input
             id="name"
@@ -61,11 +61,19 @@ export default function () {
         </div>
 
         <div className={styles.topScore}>
-          <p>Your top single player score</p>
+          <p>
+            Your Top Score <small>(single player)</small>
+          </p>
 
-          <h4>
-            {settings.topScore ? settings.topScore : "No top score yet..."}
-          </h4>
+          {settings.topScore ? (
+            <h4 className={styles.scoreCount}>{settings.topScore}</h4>
+          ) : (
+            <p>
+              <small>
+                No top score yet, land some tricks in single player...
+              </small>
+            </p>
+          )}
         </div>
 
         <div className={styles.action}>

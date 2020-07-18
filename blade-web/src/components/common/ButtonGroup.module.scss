@@ -7,14 +7,12 @@
 }
 
 .buttonGroupButton {
-  background-color: transparent;
   border: 3px solid $white;
   border-left-width: 0;
   color: $white;
   flex: 1 1 0px;
   padding: 0.75rem;
   transition: all 0.1s ease-in;
-  user-select: none;
 
   &:first-of-type {
     border-left-width: 3px;

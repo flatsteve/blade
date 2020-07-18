@@ -50,7 +50,7 @@ export default function GameSettings() {
       <Nav />
 
       <div className={styles.config}>
-        <h5 className={styles.configTitle}>Trick difficulty</h5>
+        <h5 className={styles.configTitle}>Trick Difficulty</h5>
 
         <ButtonGroup
           values={difficulty}
@@ -89,13 +89,13 @@ export default function GameSettings() {
           </ExpandButton>
 
           {showPlayerNames && (
-            <div className={styles.playerInputs}>
+            <form>
               {getArrayFromNum(settings.players - 1).map((number) => {
                 const playerNumber = number + 1;
 
                 return (
                   <div className={styles.formGroup} key={number}>
-                    <Label id={playerNumber}>Player {playerNumber} name</Label>
+                    <Label id={playerNumber}>Player {playerNumber} Name</Label>
 
                     <Input
                       id={playerNumber}
@@ -111,7 +111,7 @@ export default function GameSettings() {
                   </div>
                 );
               })}
-            </div>
+            </form>
           )}
         </div>
       )}
@@ -167,7 +167,7 @@ export default function GameSettings() {
         </div>
       </div>
 
-      <div className={styles.toggle}>
+      <div className={`${styles.toggle} ${styles.toggleFinal}`}>
         <div>
           <h5 className={styles.toggleTitle}>Allow setter to pass?</h5>
           <p className={styles.toggleDescription}>
