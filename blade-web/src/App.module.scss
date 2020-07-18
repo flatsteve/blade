@@ -1,0 +1,96 @@
+@import "~normalize.css";
+
+@import "styles/colors";
+@import "styles/mixins";
+@import "styles/variables";
+
+* {
+  box-sizing: border-box;
+}
+
+:global {
+  #modal-root {
+    @include fixed-container(absolute);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  .modal-open ~ div {
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: $dark-purple;
+  height: 100%;
+  line-height: 1.3;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+small {
+  font-size: 0.833rem;
+}
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  color: $dark-purple;
+}
+
+.app {
+  background-color: $white;
+  box-shadow: 0 0 10rem 0 rgba(0, 0, 0, 0.1);
+  height: 100%;
+  margin: 0 auto;
+  max-width: $app-width;
+  position: relative;
+  overflow-x: hidden;
+  z-index: 1;
+}

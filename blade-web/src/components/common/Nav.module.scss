@@ -1,0 +1,23 @@
+.header {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.25rem;
+  width: 100%;
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-width: 6rem;
+}
+
+.logo {
+  height: 3.8125rem;
+  width: 7.25rem;
+}
+
+.navSpacer {
+  width: 6rem;
+}

@@ -1,0 +1,77 @@
+@import "styles/colors";
+
+.actions {
+  position: relative;
+
+  &:before {
+    background-color: $purple;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    left: -25%;
+    height: 200%;
+    position: absolute;
+    top: -55%;
+    width: 150%;
+    z-index: -9;
+  }
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 17rem;
+  margin: -0.5rem auto 0 auto;
+  padding-bottom: 1.25rem;
+}
+
+.action {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.actionButton {
+  align-items: center;
+  background-color: $white;
+  border: 3px solid $black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  height: 4.5rem;
+  width: 4.5rem;
+  box-shadow: 0 5px 20px 0 rgba($black, 0.4);
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: $light-grey;
+
+    + .actionButtonText {
+      text-decoration: line-through;
+    }
+  }
+
+  svg {
+    fill: $black;
+    width: 2.5rem;
+  }
+}
+
+.actionButtonSmall {
+  height: 3rem;
+  margin-top: -1.5rem;
+  width: 3rem;
+
+  svg {
+    margin-top: -0.1rem;
+    width: 1.6rem;
+  }
+}
+
+.actionButtonText {
+  color: $white;
+  margin: 0.25rem 0 0;
+}

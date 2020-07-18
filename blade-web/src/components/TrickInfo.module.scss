@@ -1,0 +1,66 @@
+@import "styles/colors";
+
+.trick {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 1rem 0 3.5rem 0;
+}
+
+.trickContext {
+  color: $grey;
+  font-style: italic;
+  margin: 0;
+}
+
+.trickContextName {
+  text-transform: capitalize;
+}
+
+.trickNameContainer {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  min-height: 6rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  text-align: center;
+}
+
+.trickName {
+  color: $orange;
+  font-family: "Mogra", cursive;
+  margin: 0;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.descriptionName {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+// Animations //
+.enter {
+  opacity: 0;
+  transform: translateX(-25%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.exit {
+  opacity: 0;
+  transform: translateX(75%);
+}
+
+.enter,
+.exit {
+  transition: all 0.3s;
+}

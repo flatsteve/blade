@@ -1,0 +1,9 @@
+[build]
+  base = "blade-web/"
+  command = "npm run test && npm run build"
+  publish = "build/"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

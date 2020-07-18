@@ -1,0 +1,14 @@
+[
+  {
+    "id": 150,
+    "name": "frontside",
+    "difficulty": 1,
+    "description": "Your chest/body facing towards the obstacle."
+  },
+  {
+    "id": 151,
+    "name": "backside",
+    "difficulty": 1,
+    "description": "Your chest/body facing away from the obstacle."
+  }
+]

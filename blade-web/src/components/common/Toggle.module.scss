@@ -1,0 +1,47 @@
+@import "styles/colors";
+
+$toggle-width: 5.2rem;
+$slider-size: 1.8rem;
+$padding: 0.25rem;
+
+.toggle {
+  align-items: center;
+  background-color: transparent;
+  border: 3px solid $white;
+  border-radius: 3rem;
+  color: $white;
+  display: flex;
+  height: calc(#{$slider-size} + #{$padding * 3});
+  justify-content: space-around;
+  padding: 0.25rem;
+  position: relative;
+  transition: all 0.2s ease-out;
+  width: $toggle-width;
+}
+
+.toggleSlider {
+  background-color: $white;
+  border-radius: $slider-size;
+  content: "";
+  left: $padding;
+  height: $slider-size;
+  width: $slider-size;
+  position: absolute;
+  transform: translateX(0);
+  transition: all 0.2s ease-out;
+}
+
+.toggleText {
+  text-align: center;
+  width: 50%;
+}
+
+input:checked + .toggleSlider {
+  transform: translateX(
+    calc(#{$toggle-width} - #{$slider-size} - #{$padding * 3.4})
+  );
+}
+
+input[type="checkbox"] {
+  display: none;
+}

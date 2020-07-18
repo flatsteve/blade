@@ -1,0 +1,34 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.exception {
+  @include gradient-scene;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 16.37rem;
+  flex-shrink: 0;
+  width: 10.31rem;
+}
+
+.content {
+  color: $white;
+  text-align: center;
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+}
+
+.title {
+  margin: 0 0 0.75rem;
+}
+
+p {
+  margin: 0 0 0.75rem;
+}
+
+.action {
+  margin: auto 0 1.5rem 0;
+}

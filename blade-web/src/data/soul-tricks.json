@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "makio",
+    "one_footed": true,
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate (one footed grind)."
+  },
+  {
+    "id": 2,
+    "name": "soul",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be in front, in the groove, pointing towards the grinding surface."
+  },
+  {
+    "id": 3,
+    "name": "torque soul",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be in front, in the groove, pointing towards the grinding surface and angled inwards."
+  },
+  {
+    "id": 4,
+    "name": "acid",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be in front, in the groove, pointing away from the grinding surface."
+  },
+  {
+    "id": 5,
+    "name": "mizou",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be behind, in the groove, pointing away from the grinding surface."
+  },
+  {
+    "id": 6,
+    "name": "sunnyday",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be crossed behind, in the groove, pointing towards the grinding surface."
+  },
+  {
+    "id": 7,
+    "name": "mistrial",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be behind, in the groove, pointing away from the grinding surface and angled inwards."
+  },
+  {
+    "id": 8,
+    "name": "x-grind",
+    "difficulty": 1,
+    "description": "Leading foot on the soul plate. Your other foot should be in front, also on the soul plate in a topside position."
+  },
+  {
+    "id": 9,
+    "name": "stub soul",
+    "difficulty": 2,
+    "weird": true,
+    "description": "Leading foot on the soul plate. Your other foot should be in front, on the negative soul plate."
+  },
+  {
+    "id": 10,
+    "name": "sidewalk",
+    "difficulty": 1,
+    "weird": true,
+    "description": "Leading foot on the soul plate. Your other foot should be crossed behind. Same as a sunnyday but you get much lower, to the point where your back foot is grinding the boot instead of the groove."
+  }
+]

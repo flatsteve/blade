@@ -1,0 +1,17 @@
+@import "styles/colors";
+
+.button {
+  background-color: $black;
+  border: none;
+  border-radius: 1rem;
+  color: $orange;
+  font-family: "mogra", cursive;
+  font-size: 2.074rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.buttonText {
+  position: relative;
+  top: 0.25rem;
+}

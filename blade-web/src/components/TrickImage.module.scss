@@ -1,0 +1,68 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.container {
+  background-color: lighten($light-grey, 7%);
+  height: 0;
+  margin-bottom: 0.75rem;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+.missing {
+  @include fixed-container(absolute);
+  align-items: center;
+  background-color: lighten($light-grey, 7%);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 2.5rem;
+  text-align: center;
+  z-index: 99;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.missingTitle {
+  color: $dark-grey;
+  font-family: "Mogra", cursive;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.missingDescription {
+  color: lighten($dark-grey, 10%);
+  margin-bottom: 0;
+  z-index: 9;
+}
+
+.trickImage {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// Animations //
+.enter {
+  opacity: 0;
+}
+
+.enterActive {
+  opacity: 1;
+}
+
+.exit {
+  opacity: 0;
+}
+
+.enter,
+.exit {
+  transition: opacity 0.3s;
+}

@@ -1,0 +1,26 @@
+@import "styles/colors";
+
+.game {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  & > div {
+    flex-shrink: 0;
+  }
+}
+
+.gameOver {
+  opacity: 0.5;
+}
+
+.quit {
+  background-color: $black;
+  border: none;
+  color: $white;
+  flex-shrink: 0;
+  font-weight: bold;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+@import "styles/colors";
+
+.buttonGroup {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.buttonGroupButton {
+  background-color: transparent;
+  border: 3px solid $white;
+  border-left-width: 0;
+  color: $white;
+  flex: 1 1 0px;
+  padding: 0.75rem;
+  transition: all 0.1s ease-in;
+  user-select: none;
+
+  &:first-of-type {
+    border-left-width: 3px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  &:last-of-type {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}
+
+.buttonGroupButtonSelected {
+  background-color: $white;
+  color: $purple;
+}
+
+.info {
+  font-style: italic;
+  margin: 0.5rem 0 0 0;
+}

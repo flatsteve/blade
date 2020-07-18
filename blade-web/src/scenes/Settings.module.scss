@@ -1,0 +1,47 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.setup {
+  @include gradient-scene;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.formGroup {
+  border-bottom: 1px solid $dark-purple;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+.topScore {
+  color: $white;
+  text-align: center;
+}
+
+.action {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+  button {
+    margin-bottom: 0.75rem;
+    min-width: 18rem;
+  }
+}
+
+.cancel {
+  color: $white;
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  text-decoration: none;
+}

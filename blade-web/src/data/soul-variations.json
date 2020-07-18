@@ -1,0 +1,19 @@
+[
+  {
+    "id": 100,
+    "name": "",
+    "difficulty": 1
+  },
+  {
+    "id": 101,
+    "name": "topside",
+    "difficulty": 1,
+    "description": "Performed by grinding 'on top' of the obstacle. On a rail this essentially involves jumping over the rail and grinding with your soul plate on the opposite side. On a ledge (where there is no other side) it involves bending you leg enough to angle you soul plate 'on top' of the ledge."
+  },
+  {
+    "id": 102,
+    "name": "negative",
+    "difficulty": 2,
+    "description": "Grind using the inner soul plate."
+  }
+]

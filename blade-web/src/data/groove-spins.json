@@ -1,0 +1,25 @@
+[
+  {
+    "id": 250,
+    "name": "",
+    "difficulty": 1
+  },
+  {
+    "id": 251,
+    "name": "270",
+    "difficulty": 2,
+    "description": "Approach rolling forwards, spin 270 degrees into the trick."
+  },
+  {
+    "id": 252,
+    "name": "inspin",
+    "difficulty": 2,
+    "description": "Approach rolling backwards, spin inwards (towards the obstacle) into the trick."
+  },
+  {
+    "id": 253,
+    "name": "outspin",
+    "difficulty": 3,
+    "description": "Approach rolling backwards, spin outwards (away from the obstacle) into the trick."
+  }
+]

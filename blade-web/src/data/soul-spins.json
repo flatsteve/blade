@@ -1,0 +1,55 @@
+[
+  {
+    "id": 200,
+    "name": "",
+    "difficulty": 1
+  },
+  {
+    "id": 201,
+    "name": "alleyoop",
+    "difficulty": 1,
+    "description": "Approach facing forwards, then spin 180 degrees to grind backwards."
+  },
+  {
+    "id": 202,
+    "name": "truespin alleyoop",
+    "difficulty": 2,
+    "description": "Approach facing forwards, then spin 180 degrees away from the obstacle and grind backwards."
+  },
+  {
+    "id": 203,
+    "name": "zero spin alleyoop",
+    "difficulty": 2,
+    "description": "Approach rolling backwards then, without spinning, grind backwards."
+  },
+  {
+    "id": 204,
+    "name": "half cab",
+    "difficulty": 2,
+    "description": "Approach rolling backwards, then spin 180 degrees towards the obstacle to grind facing forwards."
+  },
+  {
+    "id": 205,
+    "name": "half cab outspin",
+    "difficulty": 3,
+    "description": "Approach rolling backwards, then spin 180 degrees away from the obstacle to grind facing forwards."
+  },
+  {
+    "id": 206,
+    "name": "hurricane",
+    "difficulty": 3,
+    "description": "Spin a full 360 degrees away from the obstacle to grind facing forwards."
+  },
+  {
+    "id": 207,
+    "name": "360",
+    "difficulty": 3,
+    "description": "Spin a full 360 degrees towards the obstacle to grind facing forwards."
+  },
+  {
+    "id": 208,
+    "name": "full cab alleyoop",
+    "difficulty": 3,
+    "description": "Approach rolling backwards, then spin a full 360 degrees to grind backwards."
+  }
+]

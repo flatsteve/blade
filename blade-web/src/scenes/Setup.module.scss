@@ -1,0 +1,70 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.setup {
+  @include gradient-scene;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 20.37rem;
+  flex-shrink: 0;
+  width: 14.31rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+.label {
+  align-items: center;
+  display: flex;
+  color: $white;
+  justify-content: center;
+  margin: 0 0 0.5rem;
+
+  small {
+    margin-left: 0.5rem;
+  }
+}
+
+.input {
+  background-color: $dark-purple;
+  border: 3px solid $white;
+  border-radius: 1rem;
+  color: $white;
+  min-width: 18rem;
+  padding: 0.75rem 1.25rem;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: $white;
+    font-style: italic;
+    opacity: 0.6;
+  }
+}
+
+.action {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+  button {
+    margin-bottom: 0.75rem;
+    min-width: 18rem;
+  }
+}

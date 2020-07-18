@@ -1,0 +1,101 @@
+[
+  {
+    "id": 50,
+    "name": "frontside",
+    "difficulty": 1,
+    "description": "Both feet in the groove with your body facing towards the obstacle.",
+    "hasNoVariation": true
+  },
+  {
+    "id": 51,
+    "name": "backside",
+    "difficulty": 1,
+    "description": "Both feet in the groove with your body facing away from the obstacle.",
+    "hasNoVariation": true
+  },
+  {
+    "id": 52,
+    "name": "ufo",
+    "difficulty": 1,
+    "description": "Both feet in the groove - the same as a frontside. The difference is to bend your ankles and knees outwards and get super low."
+  },
+  {
+    "id": 53,
+    "name": "cabdriver",
+    "difficulty": 1,
+    "description": "Both feet in the groove but with your skates angled inwards at around a 45 degree angle."
+  },
+  {
+    "id": 54,
+    "name": "royale",
+    "difficulty": 1,
+    "description": "Both feet in the groove with your skates and wheels angled towards the grinding direction. You'll need to bend your knees and get a little low."
+  },
+  {
+    "id": 55,
+    "name": "unity",
+    "difficulty": 1,
+    "description": "Crossed legged grind with both feet in the groove. The front foot wraps over the back foot."
+  },
+  {
+    "id": 56,
+    "name": "savannah",
+    "difficulty": 1,
+    "description": "Crossed legged grind with both feet in the groove. The front foot wraps behind the back foot."
+  },
+  {
+    "id": 57,
+    "name": "farv",
+    "difficulty": 1,
+    "description": "Both feet in the groove with your skates and wheels angled away from the grinding direction. You'll need to bend your knees and get low."
+  },
+  {
+    "id": 58,
+    "name": "torque",
+    "one_footed": true,
+    "difficulty": 1,
+    "description": "A one footed grind with your leading foot in the groove with your skate and wheels angled away from the grinding direction."
+  },
+  {
+    "id": 59,
+    "name": "backslide",
+    "one_footed": true,
+    "difficulty": 1,
+    "description": "A one footed grind with your leading foot in the groove with your skate and wheels angled towards the grinding direction."
+  },
+  {
+    "id": 60,
+    "name": "fastslide",
+    "one_footed": true,
+    "difficulty": 2,
+    "description": "A one footed grind with your leading foot in the groove so that the soul plate faces the grinding direction. Your skate shouldn't be angled in the groove, avoiding any contact with the soul plate."
+  },
+  {
+    "id": 61,
+    "name": "pudslide",
+    "one_footed": true,
+    "difficulty": 3,
+    "description": "A one footed grind with your leading foot in the groove so that the negative plate faces the grinding direction. Your skate shouldn't be angled in the groove, avoiding any contact with the soul plate."
+  },
+  {
+    "id": 62,
+    "name": "tabernacle",
+    "difficulty": 1,
+    "description": "Both feet in the groove, front foot turned outwards in a backslide position, back foot behind like a mizou.",
+    "weird": true
+  },
+  {
+    "id": 63,
+    "name": "wheelbarrow",
+    "difficulty": 2,
+    "description": "Leading foot rolls on the heel or toe on the obstacle  while the back foot grinds in groove.",
+    "weird": true
+  },
+  {
+    "id": 64,
+    "name": "byn soul",
+    "difficulty": 1,
+    "description": "Both feet in the groove, front foot turned inward towards the obstacle like a normal soul but your back foot should be in the torque position.",
+    "weird": true
+  }
+]

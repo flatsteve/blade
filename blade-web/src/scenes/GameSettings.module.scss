@@ -1,0 +1,55 @@
+@import "styles/colors";
+@import "styles/mixins";
+
+.settings {
+  @include gradient-scene;
+  color: $white;
+}
+
+.config {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.configTitle {
+  margin: 0 0 1rem 0;
+}
+
+.toggle {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+
+.toggleTitle {
+  margin: 0;
+}
+
+.toggleDescription {
+  font-style: italic;
+  margin: 0;
+}
+
+.toggleInput {
+  margin-left: auto;
+}
+
+.toggleDisabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.action {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+  button {
+    margin-bottom: 0.75rem;
+    min-width: 18rem;
+  }
+}
