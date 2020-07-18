@@ -39,13 +39,11 @@ export function getArrayFromNum(number) {
 }
 
 export function populateInitialPlayerState({ settings }) {
-  const playerOneName = settings.playerName || "Player 1";
-
   return getArrayFromNum(settings.players).reduce((playersObj, number) => {
     playersObj[number] = {
       ...initialPlayerState,
       number,
-      name: number === 1 ? playerOneName : `Player ${number}`,
+      name: settings.playerNames[number] || `Player ${number}`,
     };
 
     return playersObj;

@@ -15,7 +15,7 @@ export const initialPlayerState = {
 
 const initialState = {
   settings: {
-    playerName: null,
+    playerNames: { 1: "", 2: "", 3: "", 4: "" },
     topScore: 0,
     players: 2,
     difficulty: 1,

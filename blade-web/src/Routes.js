@@ -33,7 +33,7 @@ export default function () {
       <Route
         path="/"
         exact
-        render={() => (settings.playerName ? <GameSettings /> : <Setup />)}
+        render={() => (settings.playerNames[1] ? <GameSettings /> : <Setup />)}
       />
     </Switch>
   );

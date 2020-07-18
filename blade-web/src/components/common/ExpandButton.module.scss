@@ -1,0 +1,78 @@
+@import "styles/colors";
+
+$circle-size: 2.3rem;
+$width: 1.4rem;
+$height: 0.2rem;
+
+.button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: $white;
+  display: flex;
+  font-size: 1.125rem;
+  padding: 0;
+  width: 100%;
+}
+
+.closed {
+  .vertical {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(-90deg);
+  }
+
+  .horizontal {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(-90deg);
+    opacity: 1;
+  }
+}
+
+.opened {
+  opacity: 1;
+
+  .vertical {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(90deg);
+  }
+
+  .horizontal {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+.circlePlus {
+  margin-left: auto;
+}
+
+.circle {
+  position: relative;
+  width: $circle-size;
+  height: $circle-size;
+  border-radius: 100%;
+  border: 0.1875rem solid $white;
+}
+
+.horizontal {
+  position: absolute;
+  background-color: $white;
+  width: $width;
+  height: $height;
+  left: 50%;
+  margin-left: -$width / 2;
+  top: 50%;
+  margin-top: -$height / 2;
+}
+
+.vertical {
+  position: absolute;
+  background-color: $white;
+  width: $height;
+  height: $width;
+  left: 50%;
+  margin-left: -$height / 2;
+  top: 50%;
+  margin-top: -$width / 2;
+}

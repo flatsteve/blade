@@ -89,22 +89,11 @@ export default produce((newState, action) => {
       newState.settings[action.key] = action.data;
       break;
 
-    case "set_player_name":
-      let title;
-
-      if (!newState.settings.playerName) {
-        title = "Welcome to Blade";
-      } else {
-        title = "Name Updated";
-      }
-
-      newState.settings.playerName = action.name;
-
-      newState.ui.notification = {
-        title,
-        message: `Go hard or go home, ${action.name}.`,
+    case "set_player_names":
+      newState.settings.playerNames = {
+        ...newState.settings.playerNames,
+        ...action.names,
       };
-      newState.ui.showNotification = true;
       break;
 
     case "show_notification":

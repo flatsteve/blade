@@ -20,8 +20,16 @@ export default function () {
     }
 
     dispatch({
-      type: "set_player_name",
-      name,
+      type: "show_notification",
+      notification: {
+        title: "Lets Roll...",
+        message: `Go hard or go home, ${name}.`,
+      },
+    });
+
+    dispatch({
+      type: "set_player_names",
+      names: { 1: name },
     });
   }
 

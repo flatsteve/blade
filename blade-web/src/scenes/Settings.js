@@ -15,7 +15,7 @@ export default function () {
     dispatch,
   } = useContext(AppContext);
   const history = useHistory();
-  let [name, updateName] = useState(settings.playerName);
+  let [name, updateName] = useState(settings.playerNames[1]);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -29,8 +29,16 @@ export default function () {
     }
 
     dispatch({
-      type: "set_player_name",
-      name,
+      type: "show_notification",
+      notification: {
+        title: "Name Updated",
+        message: `Go hard or go home, ${name}.`,
+      },
+    });
+
+    dispatch({
+      type: "set_player_names",
+      names: { 1: name },
     });
 
     history.push("/");
